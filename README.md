@@ -10,62 +10,66 @@ Author URI: http://www.syloper.com
 == Descripción == 
 
 Integración WP, es un plugin que permite al usuario cargar datos facilmente mediante archivos CVS.
-Listado de funcionalidades :
-							- Generar un pedido solamente con el SKU y la cantidad
-							- Subir un nuevo cliente, con su email, CUIL-CUIT y nombre
-							- Modificar precios de productos solo con el SKU y el nuevo precio
+Listado de funcionalidades :<br />
+							- Generar un pedido solamente con el SKU y la cantidad <br />
+							- Subir un nuevo cliente, con su email, CUIL-CUIT y nombre <br />
+							- Modificar precios de productos solo con el SKU y el nuevo precio <br />
 <br /> <br /> 
 
 == Instalación == 
 
-- Manual: 
-    1- Descomprimimos el zip en .../wp-content/plugin
-    2- Vamos a plugins instalados (dentro del admin-wp)
+- Manual: <br />
+    1- Descomprimimos el zip en .../wp-content/plugin <br />
+    2- Vamos a plugins instalados (dentro del admin-wp) <br />
     3- Activamos el plugin
 
+<br /><br />
+- Mediante el admin: <br />
 
-- Mediante el admin:
-
-     1- Añadir plugin 
-     2- Subir el .zip
-     3- Activar el plugin
+     1- Añadir plugin <br />
+     2- Subir el .zip <br />
+     3- Activar el plugin <br />
 <br /> <br /> 
 
 == Preguntas frecuentes == 
 
-¿Cómo creo archivos CSV? 
+¿Cómo creo archivos CSV? <br />
 
- - A traves de cualquier programa de hojas de calculos.
+ - A traves de cualquier programa de hojas de calculos.<br />
 
-¿Campos para completar en cada CSV?
+¿Campos para completar en cada CSV?<br />
 
-Agregar Cliente: 
+Agregar Cliente: <br /> 
                 - Email (email válido)
+<br />
                 - CUIL-CUIT (sin "-")
+<br />
                 - Nombre (sin espacios)
 <br /> <br /> 
-Agregar Pedido: 
+Agregar Pedido: <br />
                 - SKU
+<br />
                 - Cantidad
 <br /> <br /> 
-Modificar Precio:
+Modificar Precio:<br />
                 - SKU
+<br />
                 - Nuevo precio
 <br /> <br /> 
-¿Cómo se crea en el wordpress el nuevo cliente? 
+¿Cómo se crea en el wordpress el nuevo cliente? <br />
 
  - Es un nuevo usuario Cliente, donde el id es el email y la contraseña es el CUIL-CUIT.   
 
 <br /> <br /> 
-¿Qué es el SKU?
+¿Qué es el SKU? <br />
 
- - Es el código único de cada producto que podemos agregarle cuando lo creamos.
+ - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
 <br /> <br /> 
 == Changelog ==
 
- - 0.01:
-           - Agregar Cliente
-           - Modificar precio del producto
-           - Agregar pedidos por cliente  
+ - 0.01: <br />
+           - Agregar Cliente <br /> 
+           - Modificar precio del producto <br />
+           - Agregar pedidos por cliente   <br />
 <br /> <br /> 

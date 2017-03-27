@@ -25,7 +25,6 @@ Listado de funcionalidades :<br />
 
 <br />
 - Mediante el admin: <br />
-
      1- Añadir plugin <br />
      2- Subir el .zip <br />
      3- Activar el plugin <br />

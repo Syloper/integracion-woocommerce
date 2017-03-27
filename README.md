@@ -43,9 +43,11 @@ Agregar Cliente:
                 - Email (email válido)
                 - CUIL-CUIT (sin "-")
                 - Nombre (sin espacios)
+<br /> <br /> 
 Agregar Pedido: 
                 - SKU
                 - Cantidad
+<br /> <br /> 
 Modificar Precio:
                 - SKU
                 - Nuevo precio

@@ -14,7 +14,7 @@ Listado de funcionalidades :<br />
 							- Generar un pedido solamente con el SKU y la cantidad <br />
 							- Subir un nuevo cliente, con su email, CUIL-CUIT y nombre <br />
 							- Modificar precios de productos solo con el SKU y el nuevo precio <br />
-<br /> <br /> 
+<br />
 
 == Instalación == 
 
@@ -23,13 +23,13 @@ Listado de funcionalidades :<br />
     2- Vamos a plugins instalados (dentro del admin-wp) <br />
     3- Activamos el plugin
 
-<br /><br />
+<br />
 - Mediante el admin: <br />
 
      1- Añadir plugin <br />
      2- Subir el .zip <br />
      3- Activar el plugin <br />
-<br /> <br /> 
+<br /> 
 
 == Preguntas frecuentes == 
 
@@ -45,7 +45,7 @@ Agregar Cliente: <br />
                 - CUIL-CUIT (sin "-")
 <br />
                 - Nombre (sin espacios)
-<br /> <br /> 
+<br /> 
 Agregar Pedido: <br />
                 - SKU
 <br />
@@ -55,17 +55,17 @@ Modificar Precio:<br />
                 - SKU
 <br />
                 - Nuevo precio
-<br /> <br /> 
+<br /> 
 ¿Cómo se crea en el wordpress el nuevo cliente? <br />
 
  - Es un nuevo usuario Cliente, donde el id es el email y la contraseña es el CUIL-CUIT.   
 
-<br /> <br /> 
+<br /> 
 ¿Qué es el SKU? <br />
 
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
-<br /> <br /> 
+<br /> 
 == Changelog ==
 
  - 0.01: <br />

@@ -15,12 +15,16 @@ add_submenu_page( 'iw-index', 'Importar Clientes', 'Importar Clientes', 'read', 
 // add_submenu_page( 'iw-index', 'Importar CteCte', 'Importar CteCte', 'read', 'iw-importactacte', 'includeImportarCtaCte');
 add_submenu_page( 'iw-index', 'Importar Pedidos', 'Importar Pedidos', 'read', 'iw-importapedidos', 'includeImportarPedidos');
 add_submenu_page( 'iw-index', 'Actualizar Precios', 'Actualizar Precios', 'read', 'iw-actualizarprecios', 'includeActualizarPrecios');
+add_submenu_page( 'iw-index', 'Productos', 'Productos', 'read', 'iw-productos', 'includeProductos');
 
 }
 add_action( 'admin_menu', 'iw_admin_menu');
 
 function includeIndex() {
     include('iw-index.php');
+}
+function includeProductos() {
+    include('readProductos.php');
 }
 function includeImportarCtaCte() {
     include('readCtaCte.php');

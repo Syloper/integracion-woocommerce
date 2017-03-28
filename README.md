@@ -14,6 +14,7 @@ Listado de funcionalidades :<br />
 							- Generar un pedido solamente con el SKU y la cantidad <br />
 							- Subir un nuevo cliente, con su email, CUIL-CUIT y nombre <br />
 							- Modificar precios de productos solo con el SKU y el nuevo precio <br />
+                            - Modificar precios de productos en forma dinámica desde el admin <br />
 <br />
 
 == Instalación == 
@@ -55,6 +56,7 @@ Modificar Precio:<br />
 <br />
                 - Nuevo precio
 <br /> 
+
 ¿Cómo se crea en el wordpress el nuevo cliente? <br />
 
  - Es un nuevo usuario Cliente, donde el id es el email y la contraseña es el CUIL-CUIT.   
@@ -71,4 +73,8 @@ Modificar Precio:<br />
            - Agregar Cliente <br /> 
            - Modificar precio del producto <br />
            - Agregar pedidos por cliente   <br />
-<br /> <br /> 
+<br />
+ - 0.02: <br />
+           - Listado de todos los productos <br /> 
+           - Modificar de forma dinámica sus precios <br />
+<br /> <br />

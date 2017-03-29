@@ -7,7 +7,7 @@
 > Author: Syloper <br />
 > Author URI: http://www.syloper.com <br />
 
-[![N|Solid](https://www.syloper.com/)](https://syloper.com)
+[![N|Solid](https://www.syloper.com/wp-content/themes/chroma/img/icono_blanco.png)](https://syloper.com)
 
 ### Descripción
 

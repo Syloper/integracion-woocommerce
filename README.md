@@ -7,6 +7,8 @@
 > Author: Syloper <br />
 > Author URI: http://www.syloper.com <br />
 
+[![N|Solid](https://www.syloper.com/)](https://syloper.com)
+
 ### Descripción
 
 Integración WP, es un plugin que permite al usuario cargar datos facilmente mediante archivos CVS.

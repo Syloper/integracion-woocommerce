@@ -1,11 +1,11 @@
 # Licencia  
 
-> Plugin Name: Integración Woocommerce
-> Plugin URI: http://www.syloper.com/
-> Description: Integración WooCommerce
-> Version: 0.1
-> Author: Syloper
-> Author URI: http://www.syloper.com
+> Plugin Name: Integración Woocommerce <br />
+> Plugin URI: http://www.syloper.com/ <br />
+> Description: Integración WooCommerce <br />
+> Version: 0.1 <br />
+> Author: Syloper <br />
+> Author URI: http://www.syloper.com <br />
 
 ### Descripción
 
@@ -87,7 +87,6 @@ Modificar Precio:<br />
  ```sh
            - Buscador por ID y Titulo del producto 
 ```
-<br /> 
  - 0.04: <br />
  ```sh
            - Actualizar Precios solo muestra los productos publicados 

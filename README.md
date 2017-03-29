@@ -72,7 +72,7 @@ Modificar Precio:<br />
 
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
-### Changelog 
+ ### Changelog 
 
  - 0.01: <br />
 ```sh
@@ -91,6 +91,7 @@ Modificar Precio:<br />
 ```
 <br /> 
  - 0.04: <br />
-```sh
+ ```sh
            - Actualizar Precios solo muestra los productos publicados 
-```
+  ```
+  <br />

@@ -35,13 +35,13 @@ Listado de funcionalidades :<br />
      ```
 <br /> 
 
-== Preguntas frecuentes == 
+### Preguntas frecuentes
 
-¿Cómo creo archivos CSV? <br />
+** ¿Cómo creo archivos CSV? **
 
  - A traves de cualquier programa de hojas de calculos.<br />
 
-¿Campos para completar en cada CSV?<br />
+** ¿Campos para completar en cada CSV? **
 
 Agregar Cliente: <br /> 
                 - Email (email válido)
@@ -61,12 +61,11 @@ Modificar Precio:<br />
                 - Nuevo precio
 <br /> 
 
-¿Cómo se crea en el wordpress el nuevo cliente? <br />
+** ¿Cómo se crea en el wordpress el nuevo cliente? **
 
  - Es un nuevo usuario Cliente, donde el id es el email y la contraseña es el CUIL-CUIT.   
 
-<br /> 
-¿Qué es el SKU? <br />
+** ¿Qué es el SKU? **
 
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 

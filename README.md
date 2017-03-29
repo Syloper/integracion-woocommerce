@@ -1,11 +1,11 @@
 # Licencia  
 
-Plugin Name: Integración Woocommerce
-Plugin URI: http://www.syloper.com/
-Description: Integración WooCommerce
-Version: 0.1
-Author: Syloper
-Author URI: http://www.syloper.com
+> Plugin Name: Integración Woocommerce
+> Plugin URI: http://www.syloper.com/
+> Description: Integración WooCommerce
+> Version: 0.1
+> Author: Syloper
+> Author URI: http://www.syloper.com
 
 ### Descripción
 

@@ -7,7 +7,7 @@ Version: 0.1
 Author: Syloper
 Author URI: http://www.syloper.com
 
-== Descripción == 
+### Descripción
 
 Integración WP, es un plugin que permite al usuario cargar datos facilmente mediante archivos CVS.
 Listado de funcionalidades :<br />
@@ -17,18 +17,24 @@ Listado de funcionalidades :<br />
                             - Modificar precios de productos en forma dinámica desde el admin <br />
 <br />
 
-== Instalación == 
+### Instalación
 
-- Manual: <br />
-    1- Descomprimimos el zip en .../wp-content/plugin <br />
-    2- Vamos a plugins instalados (dentro del admin-wp) <br />
-    3- Activamos el plugin
+- Manual: <br /> 
+    ```sh
+    - Descomprimimos el zip en .../wp-content/plugin <br />
+    - Vamos a plugins instalados (dentro del admin-wp) <br />
+    - Activamos el plugin
+    ```
 
 <br />
+
 - Mediante el admin: <br />
-     1- Añadir plugin <br />
-     2- Subir el .zip <br />
-     3- Activar el plugin <br />
+    
+    ```sh
+    - Añadir plugin 
+    - Subir el .zip
+    - Activar el plugin
+     ```
 <br /> 
 
 == Preguntas frecuentes == 
@@ -67,20 +73,25 @@ Modificar Precio:<br />
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
 <br /> 
-== Changelog ==
+### Changelog 
 
  - 0.01: <br />
-           - Agregar Cliente <br /> 
-           - Modificar precio del producto <br />
-           - Agregar pedidos por cliente   <br />
-<br />
+ ```sh
+           - Agregar Cliente 
+           - Modificar precio del producto
+           - Agregar pedidos por cliente  
+```
  - 0.02: <br />
-           - Listado de todos los productos <br /> 
-           - Modificar de forma dinámica sus precios <br />
-<br />
+ ```sh
+           - Listado de todos los productos 
+           - Modificar de forma dinámica sus precios
+```
  - 0.03: <br />
-           - Buscador por ID y Titulo del producto <br /> 
+ ```sh
+           - Buscador por ID y Titulo del producto 
+```
 <br /> 
  - 0.04: <br />
-           - Actualizar Precios solo muestra los productos publicados <br /> 
-<br />
+ ```sh
+           - Actualizar Precios solo muestra los productos publicados 
+```

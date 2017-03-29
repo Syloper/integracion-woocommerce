@@ -1,10 +1,13 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+  
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <style type="text/css">
     .claseDelBoton{
         border:none;
@@ -15,6 +18,11 @@
         bottom: 20px;
         right: 50px;
     }
+    tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
 </style>
 <?php
 
@@ -23,13 +31,14 @@
     $args['post__in'] = array();
     $products = $wpdb->get_results("SELECT ID FROM ".$wpdb->posts." WHERE `post_type`='product'",ARRAY_A);
     echo '<div style="overflow-x:auto;margin:15px;" align="center"> ';
-        echo '<table class="table table-striped" >' ;
+        echo '<table class="table table-striped display" id="tabla" >' ;
           echo "<thead>";
             echo '<tr style="hover {background-color: #f5f5f5}"> 
                   <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;">Producto ID</th>
                   <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;">Título</th>
                   <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;"> Imagen</th> 
-                  <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;">Precio </th> 
+                  <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;">Precio </th>
+                  <th style="padding: 15px;text-align: left; background-color: #4CAF50; color: white; border-bottom: 2px solid #ddd;"><input type="text" id="search" placeholder="Buscar" class="form-control"></input></th>
                 </tr>';
           echo "</thead>";
           ?>
@@ -51,6 +60,9 @@
                     
                         <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
                             <input name="nuevoprecio[<?php echo $product->id;?>]" value="<?php echo $product->get_price(); ?>" class="form-control">
+                        </td>
+                        <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
+                            
                         </td>
 
              
@@ -99,4 +111,27 @@
         </tbody>
         </table>
         </div>
+        <script type="text/javascript">
+               $("#search").on("keyup", function() {
+                    var value = $(this).val();
+
+                    $("table tr").each(function(index) {
+                        if (index !== 0) {
+
+                            $row = $(this);
+
+                            $row.find("td").each(function(){
+                              var id = $(this).text();
+                              if (id.indexOf(value) < 0) {
+                                $row.hide();
+                              }
+                              else {
+                                $row.show();
+                                return false;
+                              }
+                            });
+                        }
+                    });
+                });
+        </script>
     <?php 

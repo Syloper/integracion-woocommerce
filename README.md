@@ -1,4 +1,4 @@
- == Licencia == 
+# Licencia  
 
 Plugin Name: Integración Woocommerce
 Plugin URI: http://www.syloper.com/
@@ -25,8 +25,6 @@ Listado de funcionalidades :<br />
     - Vamos a plugins instalados (dentro del admin-wp)
     - Activamos el plugin
     ```
-
-<br />
 
 - Mediante el admin: <br />
     

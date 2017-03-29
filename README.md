@@ -1,3 +1,5 @@
+[![N|Solid](https://www.syloper.com/wp-content/themes/chroma/img/icono_blanco.png)](https://syloper.com)
+
 # Licencia  
 
 > Plugin Name: Integración Woocommerce <br />
@@ -7,7 +9,6 @@
 > Author: Syloper <br />
 > Author URI: http://www.syloper.com <br />
 
-[![N|Solid](https://www.syloper.com/wp-content/themes/chroma/img/icono_blanco.png)](https://syloper.com)
 
 ### Descripción
 

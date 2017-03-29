@@ -21,8 +21,8 @@ Listado de funcionalidades :<br />
 
 - Manual: <br /> 
     ```sh
-    - Descomprimimos el zip en .../wp-content/plugin <br />
-    - Vamos a plugins instalados (dentro del admin-wp) <br />
+    - Descomprimimos el zip en .../wp-content/plugin 
+    - Vamos a plugins instalados (dentro del admin-wp)
     - Activamos el plugin
     ```
 
@@ -72,17 +72,16 @@ Modificar Precio:<br />
 
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
-<br /> 
 ### Changelog 
 
  - 0.01: <br />
- ```sh
+```sh
            - Agregar Cliente 
            - Modificar precio del producto
            - Agregar pedidos por cliente  
 ```
  - 0.02: <br />
- ```sh
+```sh
            - Listado de todos los productos 
            - Modificar de forma dinámica sus precios
 ```
@@ -92,6 +91,6 @@ Modificar Precio:<br />
 ```
 <br /> 
  - 0.04: <br />
- ```sh
+```sh
            - Actualizar Precios solo muestra los productos publicados 
 ```

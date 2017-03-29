@@ -77,7 +77,10 @@ Modificar Precio:<br />
  - 0.02: <br />
            - Listado de todos los productos <br /> 
            - Modificar de forma dinámica sus precios <br />
-<br /> <br />
+<br />
  - 0.03: <br />
            - Buscador por ID y Titulo del producto <br /> 
-<br /> <br />
+<br /> 
+ - 0.04: <br />
+           - Actualizar Precios solo muestra los productos publicados <br /> 
+<br />

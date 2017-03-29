@@ -49,21 +49,22 @@
             echo "<tbody>"; 
                 $args['post__in'][] = $products[$k]['ID']; 
                 $product = wc_get_product($products[$k]['ID']);
-                // print_r($product);
                 // print_r ($product->post->post_title);
-                echo "<tr>";
-                    $src = wp_get_attachment_image_src( get_post_thumbnail_id($product->id), $size);
-                    echo '<td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">'.$product->id.'</td>'; 
-                    echo '<td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">'.$product->post->post_title.'</td>'; 
-                    ?> <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;"><div align="left"><img src="<?php  echo $src[0]; ?>" style="padding: 0px !important;height: 50px !important; width: 50px !important;"></div></td> <?php 
-                        ?>
-                    
-                        <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
-                            <input name="nuevoprecio[<?php echo $product->id;?>]" value="<?php echo $product->get_price(); ?>" class="form-control">
-                        </td>
-                        <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
-                            
-                        </td>
+                if ($product->post->post_status == 'publish'){
+                  echo "<tr>";
+                      $src = wp_get_attachment_image_src( get_post_thumbnail_id($product->id), $size);
+                      echo '<td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">'.$product->id.'</td>'; 
+                      echo '<td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">'.$product->post->post_title.'</td>'; 
+                      ?> <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;"><div align="left"><img src="<?php  echo $src[0]; ?>" style="padding: 0px !important;height: 50px !important; width: 50px !important;"></div></td> <?php 
+                          ?>
+                      
+                          <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
+                              <input name="nuevoprecio[<?php echo $product->id;?>]" value="<?php echo $product->get_price(); ?>" class="form-control">
+                          </td>
+                          <td style="padding: 15px;text-align: left; border-bottom: 2px solid #ddd;">
+                              
+                          </td>
+                <?php } ?>
 
              
         <?php

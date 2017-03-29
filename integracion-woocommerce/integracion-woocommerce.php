@@ -3,7 +3,7 @@
 Plugin Name: Integración Woocommerce
 Plugin URI: http://www.syloper.com/
 Description: Integración WooCommerce
-Version: 0.1
+Version: 0.4
 Author: Syloper
 Author URI: http://www.syloper.com
 */
@@ -14,7 +14,7 @@ add_menu_page ( 'Integración WooCommerce', 'Integración WC', 'read', 'iw-index
 add_submenu_page( 'iw-index', 'Importar Clientes', 'Importar Clientes', 'read', 'iw-importarclientes', 'includeImportarClientes');
 // add_submenu_page( 'iw-index', 'Importar CteCte', 'Importar CteCte', 'read', 'iw-importactacte', 'includeImportarCtaCte');
 add_submenu_page( 'iw-index', 'Importar Pedidos', 'Importar Pedidos', 'read', 'iw-importapedidos', 'includeImportarPedidos');
-add_submenu_page( 'iw-index', 'Actualizar Precios', 'Actualizar Precios', 'read', 'iw-actualizarprecios', 'includeActualizarPrecios');
+add_submenu_page( 'iw-index', 'Importar Precios', 'Importar Precios', 'read', 'iw-actualizarprecios', 'includeActualizarPrecios');
 add_submenu_page( 'iw-index', 'Actualizar Precios', 'Actualizar Precios', 'read', 'iw-productos', 'includeProductos');
 
 }

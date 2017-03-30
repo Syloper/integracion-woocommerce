@@ -1,4 +1,4 @@
-[![Syloper](http://lab.syloper.com/nerdearla/static/images/sponsor/syloper.png)](https://syloper.com)
+[![Syloper](http://lab.syloper.com/ps/webroot/img/syloper.png)](https://syloper.com)
 
 # Licencia  
 

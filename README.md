@@ -1,4 +1,4 @@
-[![N|Solid](https://www.syloper.com/wp-content/themes/chroma/img/icono_blanco.png)](https://syloper.com)
+[![Syloper](http://lab.syloper.com/nerdearla/static/images/sponsor/syloper.png)](https://syloper.com)
 
 # Licencia  
 
@@ -40,11 +40,11 @@ Listado de funcionalidades :<br />
 
 ### Preguntas frecuentes
 
-** ¿Cómo creo archivos CSV? **
+###### ¿Cómo creo archivos CSV? 
 
  - A traves de cualquier programa de hojas de calculos.<br />
 
-** ¿Campos para completar en cada CSV? **
+###### ¿Campos para completar en cada CSV?
 
 Agregar Cliente: <br /> 
                 - Email (email válido)
@@ -64,11 +64,11 @@ Modificar Precio:<br />
                 - Nuevo precio
 <br /> 
 
-** ¿Cómo se crea en el wordpress el nuevo cliente? **
+###### ¿Cómo se crea en el wordpress el nuevo cliente? 
 
  - Es un nuevo usuario Cliente, donde el id es el email y la contraseña es el CUIL-CUIT.   
 
-** ¿Qué es el SKU? **
+###### ¿Qué es el SKU? 
 
  - Es el código único de cada producto que podemos agregarle cuando lo creamos. <br />
 
